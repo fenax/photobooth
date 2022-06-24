@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-sh fbdisp.sh 3.gif
+bash fbdisp.sh 3.png
 sleep 1
-sh fbdisp.sh 2.gif
+bash fbdisp.sh 2.png
 sleep 1
-sh fbdisp.sh 1.gif
+bash fbdisp.sh 1.png
 gphoto2 --auto-detect >/dev/null
 sleep 1
-sh fbdisp.sh flash.gif
+bash fbdisp.sh flash.png
 gphoto2 --capture-image-and-download --filename $1.jpg

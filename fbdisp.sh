@@ -1,3 +1,9 @@
 #!/bin/bash
 
-convert -resize 1920x1080 -background black -gravity center -extent 1920x1080 $1 bgra:/dev/fb0
+
+RESOLUTION='3840x2160'
+
+convert -resize $RESOLUTION -background black -gravity center -extent $RESOLUTION $1 bgra:/dev/fb0
+
+
+echo ' '
