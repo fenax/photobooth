@@ -4,6 +4,8 @@
  gphoto2
  qrencode
  Linux VT with framebuffer
+ tg_up from https://github.com/fenax/photobooth_sender
+
  
  [files]
  1, 2, 3, flash.gif countdown
